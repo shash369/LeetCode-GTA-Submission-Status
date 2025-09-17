@@ -1,0 +1,43 @@
+/* wasted.css */
+#gta-wasted-overlay {
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+    pointer-events: none
+}
+
+#gta-wasted-overlay.gta-wasted-show {
+  opacity: 1;
+    display: flex;
+
+}
+
+#gta-wasted-center {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+}
+
+#gta-wasted-img {
+    max-width: 80vw;
+    max-height: 80vh;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  #gta-wasted-img { max-width: 90vmin; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
