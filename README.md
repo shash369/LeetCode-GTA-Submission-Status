@@ -118,7 +118,10 @@ See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-## 🎥 Demo GIFs (Optional)
+## 🎥 Demo GIFs
 
-Want to make the README flashier?  
-Consider adding demo GIFs showing Accepted vs Rejected submissions!
+### Accepted Submission
+![Accepted Submission](assets/success.png)
+
+### Rejected / Wasted Submission
+![Rejected Submission](assets/wasted.png)
